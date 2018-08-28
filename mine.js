@@ -61,3 +61,30 @@ $(document).ready(function(){
         }
     }) 
 })
+
+//Brands slider
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({ 
+        loop:true,      
+        responsiveClass:true,
+        autoHeight:true,
+        dots:false,
+        autoplay:true,
+        autoplayTimeout:2000,
+        margin:30,
+        responsive:{
+            0:{
+                items:2
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:6,
+                loop:true
+            }
+        }
+    })
+})
+
