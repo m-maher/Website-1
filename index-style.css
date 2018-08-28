@@ -266,3 +266,67 @@ body{
 }
 
 /* End of Works Section */
+
+/* Start of Clients Section */
+
+.clients{
+	background-image: url('images/bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	height: 600px;
+	width: 100%;
+	position: relative;
+}
+.clients .slide{
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 10px;
+	padding: 10px 30px;
+	margin-top: 70px;
+}
+.clients .carousel-caption{
+	position: static;	
+    text-align: left;
+    color: #000;
+}
+.clients .carousel-caption i{
+	color: #2a80b9;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.clients .carousel-caption h4{
+	color: #666;
+    font-size: 20px;
+}
+.clients .carousel-caption span{
+    font-size: 13px;
+}
+.clients .carousel li{
+	border-radius: 50%;
+	width: 10px;
+	padding: 5px;
+}
+.clients .carousel li.active{
+	background-color: #2a80b9;
+	border-radius: 50%;
+	width: 10px;
+	padding: 5px;
+}
+.clients .carousel{
+	position: relative;
+}
+.clients .carousel .carousel-indicators{
+	position: absolute;
+	top:110%;
+	border-radius: 50%;
+}
+.clients .brands{
+	background-color: #2a80b9;
+	padding: 50px 0px;
+	width: 100%;
+	max-height: 150px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+/* End of Clients Section */
