@@ -7,6 +7,16 @@ $(document).ready(function(){
     })
 })
 
+// Loading
+
+$(document).ready(function(){
+  $("#loading .spinner").fadeOut(2000,function(){
+    $("#loading").fadeOut(2000,function(){
+      $("body").css("overflow" , "auto")
+    })
+  })
+})
+
 //Navbar
 
 $(window).scroll(function(){
