@@ -428,3 +428,37 @@ body{
 }
 
 /* End of Contact Section */
+
+/* Start of Subscribe Section */
+
+.subscribe{
+	padding: 60px;
+	background-color: #2a80b9;
+	color: #fff;
+}
+.subscribe .form-group{
+	width: 75%;
+}
+@media(max-width: 750px){
+  .subscribe .form-group{
+    	width: 100%;
+  }
+}
+.subscribe .form-control{
+	border-radius: 300px;
+	padding: 10px 15px;
+}
+.subscribe button{
+	background-color: #2a80b9;
+	color: #fff;
+	font-size: 13px;
+	padding: 10px 30px;
+	border:2px solid #fff; 
+	border-radius: 300px;
+}
+.subscribe button:hover{
+	background-color: #fff;
+	color: #333; 
+}
+
+/* End of Subscribe Section */
