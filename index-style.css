@@ -2,6 +2,18 @@ body{
 	font-family: 'Raleway', sans-serif;
 }
 
+#btnUp{
+	background-color: #2a80b9;
+	color: #fff;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+#btnUp:hover{
+	background-color: #000;
+}
+
 /* Start of Nav */
 
 .navbar{

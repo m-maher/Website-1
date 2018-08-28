@@ -1,4 +1,12 @@
 
+//Button Up
+
+$(document).ready(function(){
+    $("#btnUp").click(function(){
+        $("body").animate({scrollTop:'0'},1000);        
+    })
+})
+
 //Navbar
 
 $(window).scroll(function(){
