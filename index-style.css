@@ -1,0 +1,34 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Start of Nav */
+
+.navbar{
+	border-bottom: solid 1px #868e96;
+}
+.navbar .navbar-brand{
+	margin-left: 100px;
+}
+@media(max-width:700px){
+  
+  .navbar .navbar-brand{
+	margin-left: 0px;
+  }
+
+}
+.navbar .navbar-brand img{
+	width: 150px;
+}
+.navbar .collapse ul li {
+	padding-right: 20px;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+	color: #fff;
+	font-size: 14px;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+	color: #2a80b9;
+}
+
+/* End of Nav */
