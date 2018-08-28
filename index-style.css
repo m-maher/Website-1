@@ -171,3 +171,39 @@ body{
 }
 
 /* End of Team Section */
+
+/* Start of Process Section */
+
+.process{
+	background-image: url('images/process.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+.process .carousel{
+	background-color:rgba(255,255,255,0.6);
+	height: 500px;
+}
+.process .carousel .carousel-caption{
+	width: 100%;
+	height: 100%;
+	position: static;
+	padding: 150px 150px 0px 150px; 
+}
+@media(max-width: 767px){
+	.process .carousel .carousel-caption{
+		padding: 150px 50px 0px 50px; 
+	}
+}
+.process .carousel .carousel-caption h4{
+	color: #000;
+}
+.process .icon-color{
+	background-color: #2a80b9;
+	border-radius: 50%;
+}
+.process .progress .progress-bar{
+	background-color: #2a80b9;
+
+}
+
+/* End of Process Section */
