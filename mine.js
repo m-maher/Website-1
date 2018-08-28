@@ -23,6 +23,25 @@ $(".navbar-toggler").click(function(){
 })
 
 
+//Navbar links
+
+$(".navbar a").click(function(){
+
+    var h = $(this).attr("href")  ;
+    var off = $(h).offset().top;
+    $("body,html").animate({scrollTop:off},1000)    
+})
+
+//Read more link
+
+$(".home .caption a").click(function(){
+
+    var h = $(this).attr("href")  ;
+    var off = $(h).offset().top;
+    $("body,html").animate({scrollTop:off},1000)    
+})
+
+
 //Counter
 
 $(window).scroll(startCounter);
