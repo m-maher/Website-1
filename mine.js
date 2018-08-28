@@ -41,3 +41,23 @@ $(window).scroll(startCounter);
             });
         }
     }
+
+//Team slider
+
+$(document).ready(function(){
+    $('.tests').owlCarousel({
+        responsiveClass:true,
+        dots:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            770:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    }) 
+})
