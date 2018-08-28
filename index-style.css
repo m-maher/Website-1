@@ -113,3 +113,18 @@ body{
 }
 
 /* End of About Section */
+
+/* Start of Counter Section */
+
+.projects{
+	background-color: #f7f7f7;
+	padding: 50px 0px;
+}
+.projects .caption h2{
+	font-size: 45px;
+}
+.projects .caption h4{
+	font-size: 16px;
+}
+
+/* End of Counter Section */
