@@ -32,3 +32,61 @@ body{
 }
 
 /* End of Nav */
+
+/* Start of Home Section */
+
+#main-slider{
+	min-height: 650px;
+}
+.carousel img{
+	min-height: 650px;
+	max-height: 850px;
+}
+.home{
+	position: relative;
+}
+.home .caption{ 
+	background-color: rgba(0,0,30,0.5);
+    position: absolute;
+    top:0px;
+    padding-top: 300px;
+    height: 100%; 
+    width: 100%;
+    color: #fff;
+}
+.home .caption h2{
+    font-size: 58px;
+}
+.home .caption p{
+    color: #fff;
+}
+.home .caption a{
+	background-color: #2a80b9;
+	color: #fff;
+}
+.home .caption a:hover{
+	background-color: #fff;
+	color: #000;
+}
+@media(max-width:1000px){
+	.home .caption{
+       padding-top: 150px;
+	}
+}
+@media(max-width:593px){
+	.home .caption{
+       padding-top: 100px;
+	}
+	.home .caption h2{
+      font-size: 45px;
+    }
+}
+
+#left{
+	z-index: 100;
+}
+#right{
+	z-index: 100;
+}
+
+/* End of Home Section */
