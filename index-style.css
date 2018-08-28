@@ -128,3 +128,46 @@ body{
 }
 
 /* End of Counter Section */
+
+/* Start of Team Section */
+
+.team{
+	color: #000;
+}
+.team .team-details h2{
+	font-size: 40px;
+}
+.team .team-details p{
+	font-weight: normal;
+}
+.team .item{
+	overflow: hidden;
+	position: relative; 
+}
+.team .item .caption{
+	color: #fff;
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+	height: 100%;
+	padding-top: 120%;
+    opacity: 0;
+	transition: all 0.3s;
+}
+.team .item:hover .caption{
+	background-color: rgba(0,0,0,0.9);
+	padding-top: 60%;
+	opacity: 1;
+}
+.team .item .member-img img{
+    transform: scale(1.2,1.2);
+	transition: all 0.4s;
+}
+.team .item:hover .member-img img{
+	transform: scale(1,1);
+}
+.team .item .caption i{
+    font-size: 13px;
+}
+
+/* End of Team Section */
