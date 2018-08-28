@@ -330,3 +330,69 @@ body{
 }
 
 /* End of Clients Section */
+
+/* Start of Pricing Section */
+
+.pricing{
+	background-color: #f7f7f7;
+	padding: 100px 0px;
+}
+.pricing .item{
+	background-color: #fff;
+	padding: 20px 0px;
+	margin-bottom: 20px;
+	position: relative;
+	bottom: 0px;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.11);
+	transition: all 0.3s;
+}
+.pricing .item:hover{
+	bottom: 20px;
+	box-shadow: 10px 10px 90px rgba(0, 0, 0, 0.11);
+}
+.pricing .item .price{
+	width: 75%;
+	margin: auto;	
+	padding: 5px 0px;
+	box-shadow: 0 5px 18px rgba(0, 0, 0, 0.11);
+}
+@media (max-width:991px){
+	.pricing .item .price{
+       width: 50%;		
+	}
+}
+.pricing .item .price h4{
+	font-size: 18px;
+}
+.pricing .item .details p{
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(42, 42, 42, 0.03);
+}
+.pricing .item .price-btn .item-btn {
+	border:2px solid #e6e6e6;
+	color: #333;
+	border-radius: 300px;
+	padding: 7px 30px;
+}
+.pricing .item .price-btn .item-btn:hover {
+	background-color: #2a80b9;
+	color: #fff;
+	border:2px solid #2a80b9;
+}
+#item-business {
+	background-color: #2a80b9;
+	color: #fff;
+}
+#item-business p{
+	color: #fff;
+}
+#item-business .item-btn{
+	color: #fff;
+}
+#item-business .item-btn:hover{
+	background-color: #fff;
+	color: #333;
+	border:2px solid #fff;
+}
+
+/* End of Pricing Section */
