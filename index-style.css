@@ -484,13 +484,13 @@ p{
 
 /* End of Contact Section */
 
-
 /* Google Map */
 
 #map{
 	width: 100%;
 	height: 400px;
 }
+
 
 /* Start of Subscribe Section */
 
@@ -528,47 +528,39 @@ p{
 
 /* Start of Social Section */
 
-.about .icon{
-	background-color: #2a80b9;
-	color: #fff;
+.social .icon{
 	width: 40px;
 	height: 40px;
+    border: 3px solid #eee;
+    border-radius: 50%;
 	margin: auto;
 	font-size: 18px;
+	display: inline-block;
 }
-.about .caption .icon i{
-    padding: 10px;
+.social .icon i{
+    padding: 8px;
+    color: #000;
 }
-.social i{
-	color: #000;
-    border: 1px solid #eee;
-    border-radius: 50%;
-    margin: 0px 5px;
-    padding: 10px; 
+.social .icon i:hover{
+    color: #fff;
 }
 #facebook:hover{
 	background-color: #337ab7;
-	color: #fff;
 }
 #twitter:hover{
 	background-color: #6CADDE;
-	color: #fff;
 }
 #google:hover{
 	background-color: #d34836;
-	color: #fff;
 }
 #linkedin:hover{
 	background-color: #09c;
-	color: #fff;
 }
 #youtube:hover{
 	background-color: #ee4836;
-	color: #fff;
 }
 #skype:hover{
 	background-color: #00aff0;
-	color: #fff;
 }
 
 /* End of Social Section */
