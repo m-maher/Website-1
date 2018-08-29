@@ -43,11 +43,12 @@ $(".navbar-toggler").click(function(){
 
 //Navbar links
 
-$(".navbar a").click(function(){
+$(".navbar li a").click(function(){
 
     var h = $(this).attr("href")  ;
     var off = $(h).offset().top;
-    $("body,html").animate({scrollTop:off},1000)    
+    $("body,html").animate({scrollTop:off},1000)  
+   
 })
 
 //Read more link
@@ -58,7 +59,6 @@ $(".home .caption a").click(function(){
     var off = $(h).offset().top;
     $("body,html").animate({scrollTop:off},1000)    
 })
-
 
 //Counter
 
@@ -125,7 +125,6 @@ $(document).ready(function(){
     })
 })
 
-
 // Google Map
 
 function myMap() {
@@ -135,4 +134,32 @@ function myMap() {
         mapTypeId: google.maps.MapTypeId.ROADMAP
     }
   var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+
+// Contact Form
+
+var inps = document.getElementsByTagName("input");
+
+var regex = {
+
+    username:/^[A-Za-z]{3,8}$/,
+    usermail: /^\w+[-_.]{0,1}\w+@[a-z0-9]+(\.[a-z]{2,6}){1,3}$/,
+    subject:/^[A-Za-z]{3,}$/
+}
+
+for(var i = 0; i < inps.length;i++){
+
+    inps[i].addEventListener("keyup",function(e){
+    validate(e.target,regex[e.target.attributes.name.value]);
+    })
+}
+
+function validate(inp ,reg){
+
+    if(reg.test(inp.value) == true){
+        inp.className = "form-control is-valid";
+    }
+    else{
+        inp.className = "form-control is-invalid";
+    }
 }
