@@ -10,9 +10,10 @@ $(document).ready(function(){
 // Loading
 
 $(document).ready(function(){
+$("body").css("overflow","hidden");
   $("#loading .spinner").fadeOut(2000,function(){
     $("#loading").fadeOut(2000,function(){
-      $("body").css("overflow" , "auto")
+      $("body").css("overflow","auto");
     })
   })
 })
