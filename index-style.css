@@ -94,7 +94,6 @@ p{
 	min-height: 650px;
 }
 .carousel img{
-	min-height: 650px;
 	max-height: 850px;
 }
 .home{
@@ -424,6 +423,7 @@ p{
 	border-bottom: 1px solid rgba(42, 42, 42, 0.03);
 }
 .pricing .item .price-btn .item-btn {
+	background-color: #fff;
 	border:2px solid #e6e6e6;
 	color: #333;
 	border-radius: 300px;
@@ -442,6 +442,7 @@ p{
 	color: #fff;
 }
 #item-business .item-btn{
+	background-color: #2a80b9;
 	color: #fff;
 }
 #item-business .item-btn:hover{
