@@ -94,6 +94,7 @@ p{
 	min-height: 650px;
 }
 .carousel img{
+	min-height: 650px;
 	max-height: 850px;
 }
 .home{
