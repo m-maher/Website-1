@@ -24,7 +24,7 @@ $(window).scroll(function(){
     
     var windowScroll = $(window).scrollTop();
 
-    if(windowScroll > 20){
+    if(windowScroll > 200){
         $(".navbar").css("backgroundColor",'rgba(0,0,0,0.7)').
         css('border','none');
         $("#btnUp").css("display","block");            
