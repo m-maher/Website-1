@@ -12,7 +12,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 $("body").css("overflow","hidden");
   $("#loading .spinner").fadeOut(2000,function(){
-    $("#loading").fadeOut(2000,function(){
+    $("#loading").fadeOut(1000,function(){
       $("body").css("overflow","auto");
     })
   })
@@ -51,6 +51,24 @@ $(".navbar li a").click(function(){
     $("body,html").animate({scrollTop:off},1000)  
    
 })
+
+//Home
+
+$(document).ready(function(){
+    $(".slider").slick({
+        autoplay:true,
+        autoplaySpeed:3000,
+        arrows:false
+    });
+});
+
+$('.next').click(function(){
+    $(".slider").slick('slickNext');
+});
+
+$('.prev').click(function(){
+    $(".slider").slick('slickPrev');
+});
 
 //Read more link
 

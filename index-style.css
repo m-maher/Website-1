@@ -61,7 +61,8 @@ p{
 
 .navbar{
 	border-bottom: solid 1px #868e96;
-	transition: all 1s;
+	transition: all 0.3s;
+	padding: 15px; 
 }
 .navbar .navbar-brand{
 	margin-left: 100px;
@@ -74,7 +75,7 @@ p{
 
 }
 .navbar .navbar-brand img{
-	width: 150px;
+	width: 120px;
 }
 .navbar .collapse ul li {
 	padding-right: 20px;
@@ -91,24 +92,43 @@ p{
 
 /* Start of Home Section */
 
-#main-slider{
-	min-height: 650px;
-}
-.carousel img{
-	min-height: 650px;
-	max-height: 850px;
-}
 .home{
 	position: relative;
 }
-.home .caption{ 
-	background-color: rgba(0,0,30,0.5);
+.home .item1 {
+    background-image: url('images/slider1.jpg');
+    background-size: cover; 
+}
+.home .item2{
+	background-image: url('images/slider2.jpg');
+    background-size: cover; 
+}
+.home .item3{
+	background-image: url('images/slider3.jpg');
+    background-size: cover; 
+}
+.home .arrow-next button{
+	color: #fff;
+	padding: 40px 10px;
     position: absolute;
-    top:0px;
-    padding-top: 300px;
-    height: 100%; 
-    width: 100%;
+	top:45%;
+	right: 0;
+}
+.home .arrow-prev button{
+	color: #fff;
+	padding: 40px 10px;
+    position: absolute;
+	top:45%;
+	left: 0;
+}
+.home button{
+	background-color: #2a80b9;
+}
+.home .caption{  
     color: #fff;
+    height: 100%;
+	padding-top: 300px;
+	background-color: rgba(0,0,30,0.5);
 }
 .home .caption h2{
     font-size: 58px;
@@ -136,13 +156,6 @@ p{
 	.home .caption h2{
       font-size: 45px;
     }
-}
-
-#left{
-	z-index: 100;
-}
-#right{
-	z-index: 100;
 }
 
 /* End of Home Section */
@@ -237,13 +250,13 @@ p{
 }
 .process .carousel{
 	background-color:rgba(255,255,255,0.6);
-	height: 600px;
+	height: 700px;
 }
 .process .carousel .carousel-caption{
 	width: 100%;
 	height: 100%;
 	position: static;
-	padding: 150px 150px 0px 150px; 
+	padding: 200px 150px 0px 150px; 
 }
 @media(max-width: 767px){
 	.process .carousel .carousel-caption{
@@ -267,7 +280,7 @@ p{
 /* Start of Works Section */
 
 .works{
-	margin: 70px 0px;
+	padding: 100px 0px;
 }
 .works .nav-mine{
 	border: none;
@@ -277,11 +290,11 @@ p{
     font-size: 14px;
     color: #868e96;
 }
-.works .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+.works .nav-tabs .nav-link.active{
     color: #000;
     border: none;
 }
-.works .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover{
+.works .nav-tabs .nav-link:hover{
     color: #000;
     border: none;
 }
@@ -329,7 +342,7 @@ p{
 	background-image: url('images/bg.jpg');
 	background-size: cover;
 	background-attachment: fixed;
-	height: 600px;
+	height: 750px;
 	width: 100%;
 	position: relative;
 }
@@ -383,6 +396,7 @@ p{
 	position: absolute;
 	bottom: 0;
 	right: 0;
+	cursor: pointer;
 }
 
 /* End of Clients Section */
@@ -491,7 +505,7 @@ p{
 
 #map{
 	width: 100%;
-	height: 400px;
+	height: 500px;
 }
 
 
@@ -539,6 +553,7 @@ p{
 	margin: auto;
 	font-size: 18px;
 	display: inline-block;
+	cursor: pointer;
 }
 .social .icon i{
     padding: 8px;
